@@ -1,5 +1,5 @@
-#ifndef main
-#define main
+#ifndef _main
+#define _main
 
 /**
  * File to import from
