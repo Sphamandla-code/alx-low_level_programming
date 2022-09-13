@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs - print 
+ * _abs - print
  * @n: cd
  * Return: values
  */
