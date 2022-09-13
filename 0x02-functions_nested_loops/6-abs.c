@@ -1,26 +1,14 @@
 #include "main.h"
 
 /**
- * print_sign - print si
- * @n: ch n
- *
- * Return: n
- */ 
-int print_sign(int n)
+ * main - absolute val of int
+ * @n: cd
+ * Return: values
+ */
+int _abs(int n)
 {
-	if (n > 0)
-	{
-		_putchar('+');
-		return (1);
-	}
-	else if (n == 0)
-	{
-		_putchar('0');
-		return (0);
-	}
+	if (n >= 0)
+		return (n);
 	else
-	{
-		_putchar('-');
-		return (-1);
-	}
+		return (-n);
 }
