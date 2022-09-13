@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main - pint sign
- * @n: ch c
- * Return: 0 or 1 or -1
- */
+ * print_sign - print si
+ * @n: ch n
+ *
+ * Return: n
+ */ 
 int print_sign(int n)
 {
 	if (n > 0)
