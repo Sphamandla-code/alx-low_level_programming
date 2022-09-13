@@ -1,7 +1,8 @@
-#inclde "main.h"
+#include "main.h"
 
 /**
  * _islower - check alphabet lowercase
+ * @c: char c
  *
  * Return: 0 or 1
  */

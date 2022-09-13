@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - check alphabets
+ * @c: ch char
  *
  * Return: 0 or 1
  */
