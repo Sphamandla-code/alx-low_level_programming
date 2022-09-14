@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * main - test positive or neg..
+ * main - test positive or neg
  * Return: 0
  */
+
 int main(void)
 {
-	int i = 0;
+int i;
 
-	void positive_or_negative(i);
+i = 0;
+void positive_or_negative(i);
 
-	return (0);
+return (0);
 }
