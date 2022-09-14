@@ -2,7 +2,6 @@
 
 /**
  * main - test positive or neg..
- *
  * Return: 0
  */
 int main(void)
