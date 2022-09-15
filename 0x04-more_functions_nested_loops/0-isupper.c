@@ -2,6 +2,7 @@
 
 /**
  * _isupper - check upper
+ * @c: input num
  * Return: 0 or 1
  */
 int _isupper(int c)
