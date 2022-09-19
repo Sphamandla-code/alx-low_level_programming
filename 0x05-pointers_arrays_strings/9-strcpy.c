@@ -4,6 +4,8 @@
  * _strcpy - copy
  * @dest: to copy
  * @src: source
+ *
+ * Return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
