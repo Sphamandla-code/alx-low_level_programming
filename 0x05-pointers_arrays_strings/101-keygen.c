@@ -17,7 +17,7 @@ int main(void)
 	while (s < 2727)
 	{
 		pass[i] = 33 + rand() % 94;
-		s = pass[i++];
+		s += pass[i++];
 	}
 
 	pass[i] = '\0';
