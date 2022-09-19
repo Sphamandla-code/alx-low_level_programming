@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2(char *str);
+ * puts2 - (char *str);
  * @str: string characters
  */
 void puts2(char *str)
