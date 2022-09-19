@@ -4,7 +4,7 @@
  * print_rev - string in reve
  * @s: string
  */
-void print_rev(cahr *s)
+void print_rev(char *s)
 {
 	int len = 0, index;
 
