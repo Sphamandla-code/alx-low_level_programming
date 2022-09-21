@@ -1,12 +1,12 @@
-#include "main.h"
-#include <string.h>
+#include "holberton.h"
 
 /**
- * _strncpy - copy string
- * @dest: param 1
- * @src: param 2
- * @n: param 3
- @Return: param 4
+ * _strncpy - Copy input
+ * @dest: param1.
+ * @src: param2.
+ * @n: param3
+ *
+ * Return: dest.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
