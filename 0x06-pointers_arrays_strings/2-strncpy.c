@@ -10,5 +10,7 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	strncpy(dest, src, n);
+	if (n > 0)
+		dest[n - 1] = '\0';
 	retun (dest);
 }
