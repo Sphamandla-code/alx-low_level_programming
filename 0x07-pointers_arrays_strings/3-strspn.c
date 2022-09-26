@@ -8,7 +8,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int len;
+ 	int len;
 
 	len = strspn(s, accept);
 
