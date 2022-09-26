@@ -5,10 +5,11 @@
  * _strspn - length prefix
  * @s: param1
  * @accept: param2
+ * Return: val
  */
 unsigned int _strspn(char *s, char *accept)
 {
- 	int len;
+ 	unsigned int len;
 
 	len = strspn(s, accept);
 
