@@ -4,7 +4,7 @@
  * _puts_recursion - print string
  * @s: my string
  */
-void _put_recusion(char *s)
+void _puts_recusion(char *s)
 {
 	puts(s);
 }
