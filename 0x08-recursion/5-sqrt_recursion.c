@@ -2,16 +2,37 @@
 #include <math.h>
 
 /**
+ * findSQRT - fun
+ * @n: int
+ * Return: val
+ */
+
+int findSQRT(int num, int root)
+{
+	if ((root * root) == num)
+		return (root);
+
+	if (root == num / 2)
+		return (-1);
+
+	return (findSQRT(num, root + 1));
+}
+
+
+/**
  * _sqrt_recursion - find sqrt
  * @n: num
  * Return: ans
  */
 int _sqrt_recursion(int n)
 {
-	double tmp, ans;
+	int root = 0;
 
-	tmp = double(n);
-	ans = sqrt(tmp);
+	if (n < 0)
+		return (-1);
 
-	return (ans);
+	if (n == 1)
+		return (1);
+
+	return (findSQRT(n, root));
 }
