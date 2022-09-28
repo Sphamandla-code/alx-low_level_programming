@@ -3,7 +3,7 @@
 
 /**
  * findSQRT - fun
- * @n: int
+ * @num: int
  * Return: val
  */
 
