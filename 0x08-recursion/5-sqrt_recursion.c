@@ -4,6 +4,7 @@
 /**
  * findSQRT - fun
  * @num: int
+ * @root: int2
  * Return: val
  */
 
