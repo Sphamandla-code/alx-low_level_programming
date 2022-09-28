@@ -1,24 +1,37 @@
 #include "main.h"
 
 /**
+ * is_divisible - Checks number.
+ * @num: num.
+ * @div: divisor.
+ *
+ * Return: num
+ */
+int is_divisible(int num, int div)
+{
+	if (num % div == 0)
+		return (0);
+
+	if (div == num / 2)
+		return (1);
+
+	return (is_divisible(num, div + 1));
+}
+
+/**
  * is_prime_number - check prime
  * @n: int
  * Return: val
  */
 int is_prime_number(int n)
 {
-	int i, c;
+	int div = 2;
 
-	c = 0;
+	if (n <= 1)
+		return (0);
 
-	for (i = 1; i <=n; i++)
-	{
-		if (n % i == 0)
-			c++;
-	}
-
-	if (c == 2)
+	if (n >= 2 && n <= 3)
 		return (1);
-	else
-		return (-1);
+
+	return (is_divisible(n, div));
 }
