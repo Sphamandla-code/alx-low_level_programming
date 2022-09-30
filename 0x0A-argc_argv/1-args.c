@@ -2,7 +2,7 @@
 
 /**
  * main - number of arguments
- * @argc: arguments 
+ * @argc: arguments
  * @argv: pointers to arguments.
  *
  * Return: 0.
