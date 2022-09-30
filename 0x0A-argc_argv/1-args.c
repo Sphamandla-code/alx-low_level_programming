@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - print num
- * @argc: agu
- * @argv: agu2
- * Return: num
+ * main - number of arguments
+ * @argc: arguments 
+ * @argv: pointers to arguments.
+ *
+ * Return: 0.
  */
-
-int main(int argc, char* argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
 	printf("%d\n", argc - 1);
 

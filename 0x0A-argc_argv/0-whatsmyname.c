@@ -1,10 +1,11 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
- * main - my name
- * @rgc: param1
- * @argv: param2
- * Return: 0
+ * main - program name.
+ * @argc: number of arguments
+ * @argv: pointers to arguments.
+ *
+ * Return: 0.
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
