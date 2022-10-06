@@ -5,12 +5,12 @@
  * @b: bytes
  * Return: pointer
  */
-void **malloc_checked(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
-	void *res = malloc(b);
-	
-	if (res == NULL)
+	void *mem = malloc(b);
+
+	if (mem == NULL)
 		exit(98);
 
-	return (res);
+	return (mem);
 }
