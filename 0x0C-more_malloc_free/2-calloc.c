@@ -10,7 +10,13 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *m;
 
+	if (nmemb == 0 || size == 0)
+		return (NULL);
+
 	m = calloc(nmemb, size);
+
+	if (m == NULL)
+		return (NULL);
 
 	return (m);
 }
