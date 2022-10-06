@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * find_len - Finds the length of string.
  * @str: The string to be measured.
