@@ -14,7 +14,7 @@ int i, j;
 
 if (argc != 3)
 {
-prinf("Error\n");
+printf("Error\n");
 exit(98);
 }
 
