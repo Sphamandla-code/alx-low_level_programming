@@ -4,7 +4,7 @@
  * array_iterator - function on arr element
  * @array: arr
  * @size: arr size
- * @cmp: pointer
+ * @action: pointer
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
