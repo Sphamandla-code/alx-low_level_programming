@@ -3,7 +3,7 @@
 /**
  * sum_them_all - summ all params
  * @n: number of param
- * @...: var number
+ * @... : var number
  * Return: 0 or sum
  */
 int sum_them_all(const unsigned int n, ...)
