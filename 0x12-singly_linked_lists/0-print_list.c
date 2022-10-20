@@ -5,20 +5,17 @@
  * @h: param
  * Return: 0
  */
-
 size_t print_list(const list_t *h)
 {
 	size_t nodes = 0;
+	const list_t *current = h;
 
-	while (h)
+	while (current != NULL)
 	{
-		if (h->str == NULL)
-			printf("[0] (nil)\n");
-		else
-			printf("[%d] %s\n", h->len, h->str);
-
+		printf("[%d] %s\n", current->len,
+		current->str != NULL ? current->str : "(nil)");
+		current = current->next;
 		nodes++;
-		h = h->next;
 	}
 	return (nodes);
 }
