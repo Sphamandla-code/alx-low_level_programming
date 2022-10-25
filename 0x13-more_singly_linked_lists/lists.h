@@ -1,6 +1,12 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/*
+ * File: lists.h
+ * Auth: Siphamandla Nkambule
+ * Desc: 0x13
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
