@@ -2,7 +2,7 @@
 #define LISTS_H
 
 /**
- * File: List.h
+ * File: lists.h
  */
 
 #include <stdio.h>
