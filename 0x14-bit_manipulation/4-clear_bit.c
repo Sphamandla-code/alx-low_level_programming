@@ -2,7 +2,7 @@
 
 /**
  * clear_bit - bit to 0
- * *n: num1
+ * @n: num1
  * @index: num2
  * Return: 1 or -1
  */
